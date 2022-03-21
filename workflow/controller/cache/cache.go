@@ -70,6 +70,8 @@ type CacheType string
 const (
 	// Only config maps are currently supported for caching
 	ConfigMapCache CacheType = "ConfigMapCache"
+	// ArtifactCache is not currently supported
+	ArtifactCache CacheType = "ArtifactCache"
 )
 
 // Returns a cache if it exists and creates it otherwise
