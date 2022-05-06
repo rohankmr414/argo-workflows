@@ -35,7 +35,7 @@ require (
 	github.com/minio/minio-go/v7 v7.0.23
 	github.com/prometheus/client_golang v1.12.1
 	github.com/prometheus/client_model v0.2.0
-	github.com/prometheus/common v0.33.0
+	github.com/prometheus/common v0.34.0
 	github.com/robfig/cron/v3 v3.0.1
 	github.com/satori/go.uuid v1.2.0 // indirect
 	github.com/sirupsen/logrus v1.8.1
