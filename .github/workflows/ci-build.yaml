@@ -207,7 +207,7 @@ jobs:
         with:
           fetch-depth: 0
       - run: cp server/static/files.go.stub server/static/files.go
-      - uses: golangci/golangci-lint-action@v2
+      - uses: golangci/golangci-lint-action@v3
       - run: git diff --exit-code
 
   ui:
