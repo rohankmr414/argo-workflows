@@ -9,7 +9,7 @@ require (
 	github.com/TwinProduction/go-color v0.0.3
 	github.com/aliyun/aliyun-oss-go-sdk v2.2.2+incompatible
 	github.com/antonmedv/expr v1.9.0
-	github.com/argoproj-labs/argo-dataflow v0.10.1
+	github.com/argoproj-labs/argo-dataflow v0.10.2
 	github.com/argoproj/argo-events v0.17.1-0.20220223155401-ddda8800f9f8
 	github.com/argoproj/pkg v0.11.0
 	github.com/baiyubin/aliyun-sts-go-sdk v0.0.0-20180326062324-cfa1a18b161f // indirect
@@ -50,7 +50,7 @@ require (
 	github.com/valyala/fasttemplate v1.2.1
 	github.com/xeipuuv/gojsonpointer v0.0.0-20190905194746-02993c407bfb // indirect
 	github.com/xeipuuv/gojsonschema v1.2.0
-	golang.org/x/crypto v0.0.0-20220307211146-efcb8507fb70
+	golang.org/x/crypto v0.0.0-20220411220226-7b82a4e95df4
 	golang.org/x/net v0.0.0-20220425223048-2871e0cb64e4
 	golang.org/x/oauth2 v0.0.0-20220411215720-9780585627b5
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
@@ -61,9 +61,9 @@ require (
 	gopkg.in/go-playground/webhooks.v5 v5.17.0
 	gopkg.in/jcmturner/gokrb5.v5 v5.3.0
 	gopkg.in/mgo.v2 v2.0.0-20190816093944-a6b53ec6cb22 // indirect
-	k8s.io/api v0.23.3
-	k8s.io/apimachinery v0.23.3
-	k8s.io/client-go v0.23.3
+	k8s.io/api v0.23.5
+	k8s.io/apimachinery v0.23.5
+	k8s.io/client-go v0.23.5
 	k8s.io/klog/v2 v2.40.1
 	k8s.io/kube-openapi v0.0.0-20220124234850-424119656bbf
 	k8s.io/utils v0.0.0-20220210201930-3a6ce19ff2f9
@@ -178,7 +178,7 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
 	moul.io/http2curl v1.0.1-0.20190925090545-5cd742060b0e // indirect
-	sigs.k8s.io/controller-runtime v0.11.1 // indirect
+	sigs.k8s.io/controller-runtime v0.11.2 // indirect
 	sigs.k8s.io/json v0.0.0-20211208200746-9f7c6b3444d2 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.1 // indirect
 )
