@@ -124,9 +124,42 @@ func (h *ArtifactDriver) Save(path string, outputArtifact *wfv1.Artifact) error 
 	return nil
 }
 
-// Delete is unsupported for the http artifacts
+// Delete deletes the artifact from the URL
 func (h *ArtifactDriver) Delete(s *wfv1.Artifact) error {
-	return common.ErrDeleteNotSupported
+	var req *http.Request
+	var url string
+	var err error
+	if s.Artifactory != nil && s.HTTP == nil {
+		url = s.Artifactory.URL
+		req, err = http.NewRequest(http.MethodDelete, url, nil)
+		if err != nil {
+			return err
+		}
+		req.SetBasicAuth(h.Username, h.Password)
+	} else {
+		url = s.HTTP.URL
+		req, err = http.NewRequest(http.MethodDelete, url, nil)
+		if err != nil {
+			return err
+		}
+		for _, h := range s.HTTP.Headers {
+			req.Header.Add(h.Name, h.Value)
+		}
+		if h.Username != "" && h.Password != "" {
+			req.SetBasicAuth(h.Username, h.Password)
+		}
+	}
+	res, err := h.Client.Do(req)
+	if err != nil {
+		return err
+	}
+	defer func() {
+		_ = res.Body.Close()
+	}()
+	if res.StatusCode < 200 || res.StatusCode >= 300 {
+		return errors.InternalErrorf("deleting file %s failed with reason: %s", url, res.Status)
+	}
+	return nil
 }
 
 func (h *ArtifactDriver) ListObjects(artifact *wfv1.Artifact) ([]string, error) {
