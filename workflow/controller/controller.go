@@ -529,7 +529,7 @@ func (wfc *WorkflowController) processNextPodCleanupItem(ctx context.Context) bo
 					Value:     "true",
 				},
 			}
-			p, err := wfc.getPodFromApi(ctx, namespace, podName)
+			p, err := wfc.getPodFromAPI(ctx, namespace, podName)
 			if err != nil {
 				return err
 			}
@@ -554,7 +554,7 @@ func (wfc *WorkflowController) processNextPodCleanupItem(ctx context.Context) bo
 			}
 		case deletePod:
 			var patch []common.DeleteFinalizerPatch
-			p, err := wfc.getPodFromApi(ctx, namespace, podName)
+			p, err := wfc.getPodFromAPI(ctx, namespace, podName)
 			if err != nil {
 				return err
 			}
@@ -597,7 +597,7 @@ func (wfc *WorkflowController) processNextPodCleanupItem(ctx context.Context) bo
 	return true
 }
 
-func (wfc *WorkflowController) getPodFromApi(ctx context.Context, namespace string, podName string) (*apiv1.Pod, error) {
+func (wfc *WorkflowController) getPodFromAPI(ctx context.Context, namespace string, podName string) (*apiv1.Pod, error) {
 	pod, err := wfc.kubeclientset.CoreV1().Pods(namespace).Get(ctx, podName, metav1.GetOptions{})
 	if err != nil {
 		return nil, err
