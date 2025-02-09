@@ -597,6 +597,8 @@ spec:
                               - key
                               type: object
                               x-kubernetes-map-type: atomic
+                            sendContentMd5:
+                              type: boolean
                             sessionTokenSecret:
                               properties:
                                 key:
@@ -1160,6 +1162,8 @@ spec:
                                 - key
                                 type: object
                                 x-kubernetes-map-type: atomic
+                              sendContentMd5:
+                                type: boolean
                               sessionTokenSecret:
                                 properties:
                                   key:
@@ -1799,6 +1803,8 @@ spec:
                                   - key
                                   type: object
                                   x-kubernetes-map-type: atomic
+                                sendContentMd5:
+                                  type: boolean
                                 sessionTokenSecret:
                                   properties:
                                     key:
@@ -2545,6 +2551,8 @@ spec:
                           - key
                           type: object
                           x-kubernetes-map-type: atomic
+                        sendContentMd5:
+                          type: boolean
                         sessionTokenSecret:
                           properties:
                             key:

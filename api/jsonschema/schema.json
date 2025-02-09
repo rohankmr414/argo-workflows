@@ -2873,9 +2873,6 @@
         },
         "secretKey": {
           "$ref": "#/definitions/io.k8s.api.core.v1.SecretKeySelector"
-        },
-        "sendContentMd5": {
-          "type": "boolean"
         }
       },
       "title": "S3Artifact contains information about an S3 connection and bucket",
@@ -6516,6 +6513,10 @@
           "$ref": "#/definitions/io.k8s.api.core.v1.SecretKeySelector",
           "description": "SecretKeySecret is the secret selector to the bucket's secret key"
         },
+        "sendContentMd5": {
+          "description": "SendContentMd5 tells the driver to send MD5 header for object put.",
+          "type": "boolean"
+        },
         "sessionTokenSecret": {
           "$ref": "#/definitions/io.k8s.api.core.v1.SecretKeySelector",
           "description": "SessionTokenSecret is used for ephemeral credentials like an IAM assume role or S3 access grant"
@@ -6576,6 +6577,10 @@
         "secretKeySecret": {
           "$ref": "#/definitions/io.k8s.api.core.v1.SecretKeySelector",
           "description": "SecretKeySecret is the secret selector to the bucket's secret key"
+        },
+        "sendContentMd5": {
+          "description": "SendContentMd5 tells the driver to send MD5 header for object put.",
+          "type": "boolean"
         },
         "sessionTokenSecret": {
           "$ref": "#/definitions/io.k8s.api.core.v1.SecretKeySelector",

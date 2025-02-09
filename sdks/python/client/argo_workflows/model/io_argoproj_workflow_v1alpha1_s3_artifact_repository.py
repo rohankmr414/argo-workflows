@@ -103,6 +103,7 @@ class IoArgoprojWorkflowV1alpha1S3ArtifactRepository(ModelNormal):
             'region': (str,),  # noqa: E501
             'role_arn': (str,),  # noqa: E501
             'secret_key_secret': (SecretKeySelector,),  # noqa: E501
+            'send_content_md5': (bool,),  # noqa: E501
             'session_token_secret': (SecretKeySelector,),  # noqa: E501
             'use_sdk_creds': (bool,),  # noqa: E501
         }
@@ -125,6 +126,7 @@ class IoArgoprojWorkflowV1alpha1S3ArtifactRepository(ModelNormal):
         'region': 'region',  # noqa: E501
         'role_arn': 'roleARN',  # noqa: E501
         'secret_key_secret': 'secretKeySecret',  # noqa: E501
+        'send_content_md5': 'sendContentMd5',  # noqa: E501
         'session_token_secret': 'sessionTokenSecret',  # noqa: E501
         'use_sdk_creds': 'useSDKCreds',  # noqa: E501
     }
@@ -182,6 +184,7 @@ class IoArgoprojWorkflowV1alpha1S3ArtifactRepository(ModelNormal):
             region (str): Region contains the optional bucket region. [optional]  # noqa: E501
             role_arn (str): RoleARN is the Amazon Resource Name (ARN) of the role to assume.. [optional]  # noqa: E501
             secret_key_secret (SecretKeySelector): [optional]  # noqa: E501
+            send_content_md5 (bool): SendContentMd5 tells the driver to send MD5 header for object put.. [optional]  # noqa: E501
             session_token_secret (SecretKeySelector): [optional]  # noqa: E501
             use_sdk_creds (bool): UseSDKCreds tells the driver to figure out credentials based on sdk defaults.. [optional]  # noqa: E501
         """
@@ -277,6 +280,7 @@ class IoArgoprojWorkflowV1alpha1S3ArtifactRepository(ModelNormal):
             region (str): Region contains the optional bucket region. [optional]  # noqa: E501
             role_arn (str): RoleARN is the Amazon Resource Name (ARN) of the role to assume.. [optional]  # noqa: E501
             secret_key_secret (SecretKeySelector): [optional]  # noqa: E501
+            send_content_md5 (bool): SendContentMd5 tells the driver to send MD5 header for object put.. [optional]  # noqa: E501
             session_token_secret (SecretKeySelector): [optional]  # noqa: E501
             use_sdk_creds (bool): UseSDKCreds tells the driver to figure out credentials based on sdk defaults.. [optional]  # noqa: E501
         """

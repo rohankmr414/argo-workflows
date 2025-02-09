@@ -593,6 +593,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                     name="name_example",
                                     optional=True,
                                 ),
+                                send_content_md5=True,
                                 session_token_secret=SecretKeySelector(
                                     key="key_example",
                                     name="name_example",
@@ -912,6 +913,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                             name="name_example",
                                             optional=True,
                                         ),
+                                        send_content_md5=True,
                                         session_token_secret=SecretKeySelector(
                                             key="key_example",
                                             name="name_example",
@@ -1585,6 +1587,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                 name="name_example",
                                 optional=True,
                             ),
+                            send_content_md5=True,
                             session_token_secret=SecretKeySelector(
                                 key="key_example",
                                 name="name_example",
@@ -2451,6 +2454,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                     name="name_example",
                                                     optional=True,
                                                 ),
+                                                send_content_md5=True,
                                                 session_token_secret=SecretKeySelector(
                                                     key="key_example",
                                                     name="name_example",
@@ -2740,6 +2744,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                             name="name_example",
                                                             optional=True,
                                                         ),
+                                                        send_content_md5=True,
                                                         session_token_secret=SecretKeySelector(
                                                             key="key_example",
                                                             name="name_example",
@@ -3051,6 +3056,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                         name="name_example",
                                         optional=True,
                                     ),
+                                    send_content_md5=True,
                                     session_token_secret=SecretKeySelector(
                                         key="key_example",
                                         name="name_example",
@@ -3641,6 +3647,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                         name="name_example",
                                         optional=True,
                                     ),
+                                    send_content_md5=True,
                                     session_token_secret=SecretKeySelector(
                                         key="key_example",
                                         name="name_example",
@@ -3972,6 +3979,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                         name="name_example",
                                         optional=True,
                                     ),
+                                    send_content_md5=True,
                                     session_token_secret=SecretKeySelector(
                                         key="key_example",
                                         name="name_example",
@@ -4264,6 +4272,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                         name="name_example",
                                         optional=True,
                                     ),
+                                    send_content_md5=True,
                                     session_token_secret=SecretKeySelector(
                                         key="key_example",
                                         name="name_example",
@@ -5167,6 +5176,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                     name="name_example",
                                                     optional=True,
                                                 ),
+                                                send_content_md5=True,
                                                 session_token_secret=SecretKeySelector(
                                                     key="key_example",
                                                     name="name_example",
@@ -5452,6 +5462,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                             name="name_example",
                                                             optional=True,
                                                         ),
+                                                        send_content_md5=True,
                                                         session_token_secret=SecretKeySelector(
                                                             key="key_example",
                                                             name="name_example",
@@ -6407,6 +6418,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                     name="name_example",
                                     optional=True,
                                 ),
+                                send_content_md5=True,
                                 session_token_secret=SecretKeySelector(
                                     key="key_example",
                                     name="name_example",
@@ -7273,6 +7285,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                         name="name_example",
                                                         optional=True,
                                                     ),
+                                                    send_content_md5=True,
                                                     session_token_secret=SecretKeySelector(
                                                         key="key_example",
                                                         name="name_example",
@@ -7562,6 +7575,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                                 name="name_example",
                                                                 optional=True,
                                                             ),
+                                                            send_content_md5=True,
                                                             session_token_secret=SecretKeySelector(
                                                                 key="key_example",
                                                                 name="name_example",
@@ -7873,6 +7887,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                             name="name_example",
                                             optional=True,
                                         ),
+                                        send_content_md5=True,
                                         session_token_secret=SecretKeySelector(
                                             key="key_example",
                                             name="name_example",
@@ -8463,6 +8478,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                             name="name_example",
                                             optional=True,
                                         ),
+                                        send_content_md5=True,
                                         session_token_secret=SecretKeySelector(
                                             key="key_example",
                                             name="name_example",
@@ -8794,6 +8810,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                             name="name_example",
                                             optional=True,
                                         ),
+                                        send_content_md5=True,
                                         session_token_secret=SecretKeySelector(
                                             key="key_example",
                                             name="name_example",
@@ -9086,6 +9103,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                             name="name_example",
                                             optional=True,
                                         ),
+                                        send_content_md5=True,
                                         session_token_secret=SecretKeySelector(
                                             key="key_example",
                                             name="name_example",
@@ -9989,6 +10007,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                         name="name_example",
                                                         optional=True,
                                                     ),
+                                                    send_content_md5=True,
                                                     session_token_secret=SecretKeySelector(
                                                         key="key_example",
                                                         name="name_example",
@@ -10274,6 +10293,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                                 name="name_example",
                                                                 optional=True,
                                                             ),
+                                                            send_content_md5=True,
                                                             session_token_secret=SecretKeySelector(
                                                                 key="key_example",
                                                                 name="name_example",
@@ -11468,6 +11488,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                 name="name_example",
                                 optional=True,
                             ),
+                            send_content_md5=True,
                             session_token_secret=SecretKeySelector(
                                 key="key_example",
                                 name="name_example",
@@ -11745,6 +11766,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                             name="name_example",
                                             optional=True,
                                         ),
+                                        send_content_md5=True,
                                         session_token_secret=SecretKeySelector(
                                             key="key_example",
                                             name="name_example",
@@ -12038,6 +12060,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                             name="name_example",
                                             optional=True,
                                         ),
+                                        send_content_md5=True,
                                         session_token_secret=SecretKeySelector(
                                             key="key_example",
                                             name="name_example",
@@ -12340,6 +12363,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                     name="name_example",
                                     optional=True,
                                 ),
+                                send_content_md5=True,
                                 session_token_secret=SecretKeySelector(
                                     key="key_example",
                                     name="name_example",
@@ -13227,6 +13251,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                     name="name_example",
                                     optional=True,
                                 ),
+                                send_content_md5=True,
                                 session_token_secret=SecretKeySelector(
                                     key="key_example",
                                     name="name_example",
@@ -14093,6 +14118,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                         name="name_example",
                                                         optional=True,
                                                     ),
+                                                    send_content_md5=True,
                                                     session_token_secret=SecretKeySelector(
                                                         key="key_example",
                                                         name="name_example",
@@ -14382,6 +14408,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                                 name="name_example",
                                                                 optional=True,
                                                             ),
+                                                            send_content_md5=True,
                                                             session_token_secret=SecretKeySelector(
                                                                 key="key_example",
                                                                 name="name_example",
@@ -14693,6 +14720,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                             name="name_example",
                                             optional=True,
                                         ),
+                                        send_content_md5=True,
                                         session_token_secret=SecretKeySelector(
                                             key="key_example",
                                             name="name_example",
@@ -15283,6 +15311,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                             name="name_example",
                                             optional=True,
                                         ),
+                                        send_content_md5=True,
                                         session_token_secret=SecretKeySelector(
                                             key="key_example",
                                             name="name_example",
@@ -15614,6 +15643,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                             name="name_example",
                                             optional=True,
                                         ),
+                                        send_content_md5=True,
                                         session_token_secret=SecretKeySelector(
                                             key="key_example",
                                             name="name_example",
@@ -15906,6 +15936,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                             name="name_example",
                                             optional=True,
                                         ),
+                                        send_content_md5=True,
                                         session_token_secret=SecretKeySelector(
                                             key="key_example",
                                             name="name_example",
@@ -16809,6 +16840,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                         name="name_example",
                                                         optional=True,
                                                     ),
+                                                    send_content_md5=True,
                                                     session_token_secret=SecretKeySelector(
                                                         key="key_example",
                                                         name="name_example",
@@ -17094,6 +17126,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                                 name="name_example",
                                                                 optional=True,
                                                             ),
+                                                            send_content_md5=True,
                                                             session_token_secret=SecretKeySelector(
                                                                 key="key_example",
                                                                 name="name_example",
@@ -18080,6 +18113,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                         name="name_example",
                                         optional=True,
                                     ),
+                                    send_content_md5=True,
                                     session_token_secret=SecretKeySelector(
                                         key="key_example",
                                         name="name_example",
@@ -18399,6 +18433,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                 name="name_example",
                                                 optional=True,
                                             ),
+                                            send_content_md5=True,
                                             session_token_secret=SecretKeySelector(
                                                 key="key_example",
                                                 name="name_example",
@@ -19072,6 +19107,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                     name="name_example",
                                     optional=True,
                                 ),
+                                send_content_md5=True,
                                 session_token_secret=SecretKeySelector(
                                     key="key_example",
                                     name="name_example",
@@ -19938,6 +19974,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                         name="name_example",
                                                         optional=True,
                                                     ),
+                                                    send_content_md5=True,
                                                     session_token_secret=SecretKeySelector(
                                                         key="key_example",
                                                         name="name_example",
@@ -20227,6 +20264,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                                 name="name_example",
                                                                 optional=True,
                                                             ),
+                                                            send_content_md5=True,
                                                             session_token_secret=SecretKeySelector(
                                                                 key="key_example",
                                                                 name="name_example",
@@ -20538,6 +20576,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                             name="name_example",
                                             optional=True,
                                         ),
+                                        send_content_md5=True,
                                         session_token_secret=SecretKeySelector(
                                             key="key_example",
                                             name="name_example",
@@ -21128,6 +21167,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                             name="name_example",
                                             optional=True,
                                         ),
+                                        send_content_md5=True,
                                         session_token_secret=SecretKeySelector(
                                             key="key_example",
                                             name="name_example",
@@ -21459,6 +21499,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                             name="name_example",
                                             optional=True,
                                         ),
+                                        send_content_md5=True,
                                         session_token_secret=SecretKeySelector(
                                             key="key_example",
                                             name="name_example",
@@ -21751,6 +21792,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                             name="name_example",
                                             optional=True,
                                         ),
+                                        send_content_md5=True,
                                         session_token_secret=SecretKeySelector(
                                             key="key_example",
                                             name="name_example",
@@ -22654,6 +22696,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                         name="name_example",
                                                         optional=True,
                                                     ),
+                                                    send_content_md5=True,
                                                     session_token_secret=SecretKeySelector(
                                                         key="key_example",
                                                         name="name_example",
@@ -22939,6 +22982,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                                 name="name_example",
                                                                 optional=True,
                                                             ),
+                                                            send_content_md5=True,
                                                             session_token_secret=SecretKeySelector(
                                                                 key="key_example",
                                                                 name="name_example",
@@ -23894,6 +23938,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                         name="name_example",
                                         optional=True,
                                     ),
+                                    send_content_md5=True,
                                     session_token_secret=SecretKeySelector(
                                         key="key_example",
                                         name="name_example",
@@ -24760,6 +24805,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                             name="name_example",
                                                             optional=True,
                                                         ),
+                                                        send_content_md5=True,
                                                         session_token_secret=SecretKeySelector(
                                                             key="key_example",
                                                             name="name_example",
@@ -25049,6 +25095,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                                     name="name_example",
                                                                     optional=True,
                                                                 ),
+                                                                send_content_md5=True,
                                                                 session_token_secret=SecretKeySelector(
                                                                     key="key_example",
                                                                     name="name_example",
@@ -25360,6 +25407,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                 name="name_example",
                                                 optional=True,
                                             ),
+                                            send_content_md5=True,
                                             session_token_secret=SecretKeySelector(
                                                 key="key_example",
                                                 name="name_example",
@@ -25950,6 +25998,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                 name="name_example",
                                                 optional=True,
                                             ),
+                                            send_content_md5=True,
                                             session_token_secret=SecretKeySelector(
                                                 key="key_example",
                                                 name="name_example",
@@ -26281,6 +26330,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                 name="name_example",
                                                 optional=True,
                                             ),
+                                            send_content_md5=True,
                                             session_token_secret=SecretKeySelector(
                                                 key="key_example",
                                                 name="name_example",
@@ -26573,6 +26623,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                 name="name_example",
                                                 optional=True,
                                             ),
+                                            send_content_md5=True,
                                             session_token_secret=SecretKeySelector(
                                                 key="key_example",
                                                 name="name_example",
@@ -27476,6 +27527,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                             name="name_example",
                                                             optional=True,
                                                         ),
+                                                        send_content_md5=True,
                                                         session_token_secret=SecretKeySelector(
                                                             key="key_example",
                                                             name="name_example",
@@ -27761,6 +27813,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                                     name="name_example",
                                                                     optional=True,
                                                                 ),
+                                                                send_content_md5=True,
                                                                 session_token_secret=SecretKeySelector(
                                                                     key="key_example",
                                                                     name="name_example",
@@ -29657,6 +29710,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                     name="name_example",
                                     optional=True,
                                 ),
+                                send_content_md5=True,
                                 session_token_secret=SecretKeySelector(
                                     key="key_example",
                                     name="name_example",
@@ -29976,6 +30030,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                             name="name_example",
                                             optional=True,
                                         ),
+                                        send_content_md5=True,
                                         session_token_secret=SecretKeySelector(
                                             key="key_example",
                                             name="name_example",
@@ -30649,6 +30704,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                 name="name_example",
                                 optional=True,
                             ),
+                            send_content_md5=True,
                             session_token_secret=SecretKeySelector(
                                 key="key_example",
                                 name="name_example",
@@ -31515,6 +31571,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                     name="name_example",
                                                     optional=True,
                                                 ),
+                                                send_content_md5=True,
                                                 session_token_secret=SecretKeySelector(
                                                     key="key_example",
                                                     name="name_example",
@@ -31804,6 +31861,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                             name="name_example",
                                                             optional=True,
                                                         ),
+                                                        send_content_md5=True,
                                                         session_token_secret=SecretKeySelector(
                                                             key="key_example",
                                                             name="name_example",
@@ -32115,6 +32173,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                         name="name_example",
                                         optional=True,
                                     ),
+                                    send_content_md5=True,
                                     session_token_secret=SecretKeySelector(
                                         key="key_example",
                                         name="name_example",
@@ -32705,6 +32764,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                         name="name_example",
                                         optional=True,
                                     ),
+                                    send_content_md5=True,
                                     session_token_secret=SecretKeySelector(
                                         key="key_example",
                                         name="name_example",
@@ -33036,6 +33096,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                         name="name_example",
                                         optional=True,
                                     ),
+                                    send_content_md5=True,
                                     session_token_secret=SecretKeySelector(
                                         key="key_example",
                                         name="name_example",
@@ -33328,6 +33389,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                         name="name_example",
                                         optional=True,
                                     ),
+                                    send_content_md5=True,
                                     session_token_secret=SecretKeySelector(
                                         key="key_example",
                                         name="name_example",
@@ -34231,6 +34293,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                     name="name_example",
                                                     optional=True,
                                                 ),
+                                                send_content_md5=True,
                                                 session_token_secret=SecretKeySelector(
                                                     key="key_example",
                                                     name="name_example",
@@ -34516,6 +34579,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                             name="name_example",
                                                             optional=True,
                                                         ),
+                                                        send_content_md5=True,
                                                         session_token_secret=SecretKeySelector(
                                                             key="key_example",
                                                             name="name_example",
@@ -35471,6 +35535,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                     name="name_example",
                                     optional=True,
                                 ),
+                                send_content_md5=True,
                                 session_token_secret=SecretKeySelector(
                                     key="key_example",
                                     name="name_example",
@@ -36337,6 +36402,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                         name="name_example",
                                                         optional=True,
                                                     ),
+                                                    send_content_md5=True,
                                                     session_token_secret=SecretKeySelector(
                                                         key="key_example",
                                                         name="name_example",
@@ -36626,6 +36692,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                                 name="name_example",
                                                                 optional=True,
                                                             ),
+                                                            send_content_md5=True,
                                                             session_token_secret=SecretKeySelector(
                                                                 key="key_example",
                                                                 name="name_example",
@@ -36937,6 +37004,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                             name="name_example",
                                             optional=True,
                                         ),
+                                        send_content_md5=True,
                                         session_token_secret=SecretKeySelector(
                                             key="key_example",
                                             name="name_example",
@@ -37527,6 +37595,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                             name="name_example",
                                             optional=True,
                                         ),
+                                        send_content_md5=True,
                                         session_token_secret=SecretKeySelector(
                                             key="key_example",
                                             name="name_example",
@@ -37858,6 +37927,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                             name="name_example",
                                             optional=True,
                                         ),
+                                        send_content_md5=True,
                                         session_token_secret=SecretKeySelector(
                                             key="key_example",
                                             name="name_example",
@@ -38150,6 +38220,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                             name="name_example",
                                             optional=True,
                                         ),
+                                        send_content_md5=True,
                                         session_token_secret=SecretKeySelector(
                                             key="key_example",
                                             name="name_example",
@@ -39053,6 +39124,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                         name="name_example",
                                                         optional=True,
                                                     ),
+                                                    send_content_md5=True,
                                                     session_token_secret=SecretKeySelector(
                                                         key="key_example",
                                                         name="name_example",
@@ -39338,6 +39410,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                                 name="name_example",
                                                                 optional=True,
                                                             ),
+                                                            send_content_md5=True,
                                                             session_token_secret=SecretKeySelector(
                                                                 key="key_example",
                                                                 name="name_example",
@@ -40532,6 +40605,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                 name="name_example",
                                 optional=True,
                             ),
+                            send_content_md5=True,
                             session_token_secret=SecretKeySelector(
                                 key="key_example",
                                 name="name_example",
@@ -40809,6 +40883,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                             name="name_example",
                                             optional=True,
                                         ),
+                                        send_content_md5=True,
                                         session_token_secret=SecretKeySelector(
                                             key="key_example",
                                             name="name_example",
@@ -41102,6 +41177,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                             name="name_example",
                                             optional=True,
                                         ),
+                                        send_content_md5=True,
                                         session_token_secret=SecretKeySelector(
                                             key="key_example",
                                             name="name_example",
@@ -41404,6 +41480,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                     name="name_example",
                                     optional=True,
                                 ),
+                                send_content_md5=True,
                                 session_token_secret=SecretKeySelector(
                                     key="key_example",
                                     name="name_example",
@@ -42291,6 +42368,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                     name="name_example",
                                     optional=True,
                                 ),
+                                send_content_md5=True,
                                 session_token_secret=SecretKeySelector(
                                     key="key_example",
                                     name="name_example",
@@ -43157,6 +43235,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                         name="name_example",
                                                         optional=True,
                                                     ),
+                                                    send_content_md5=True,
                                                     session_token_secret=SecretKeySelector(
                                                         key="key_example",
                                                         name="name_example",
@@ -43446,6 +43525,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                                 name="name_example",
                                                                 optional=True,
                                                             ),
+                                                            send_content_md5=True,
                                                             session_token_secret=SecretKeySelector(
                                                                 key="key_example",
                                                                 name="name_example",
@@ -43757,6 +43837,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                             name="name_example",
                                             optional=True,
                                         ),
+                                        send_content_md5=True,
                                         session_token_secret=SecretKeySelector(
                                             key="key_example",
                                             name="name_example",
@@ -44347,6 +44428,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                             name="name_example",
                                             optional=True,
                                         ),
+                                        send_content_md5=True,
                                         session_token_secret=SecretKeySelector(
                                             key="key_example",
                                             name="name_example",
@@ -44678,6 +44760,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                             name="name_example",
                                             optional=True,
                                         ),
+                                        send_content_md5=True,
                                         session_token_secret=SecretKeySelector(
                                             key="key_example",
                                             name="name_example",
@@ -44970,6 +45053,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                             name="name_example",
                                             optional=True,
                                         ),
+                                        send_content_md5=True,
                                         session_token_secret=SecretKeySelector(
                                             key="key_example",
                                             name="name_example",
@@ -45873,6 +45957,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                         name="name_example",
                                                         optional=True,
                                                     ),
+                                                    send_content_md5=True,
                                                     session_token_secret=SecretKeySelector(
                                                         key="key_example",
                                                         name="name_example",
@@ -46158,6 +46243,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                                 name="name_example",
                                                                 optional=True,
                                                             ),
+                                                            send_content_md5=True,
                                                             session_token_secret=SecretKeySelector(
                                                                 key="key_example",
                                                                 name="name_example",
@@ -47144,6 +47230,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                         name="name_example",
                                         optional=True,
                                     ),
+                                    send_content_md5=True,
                                     session_token_secret=SecretKeySelector(
                                         key="key_example",
                                         name="name_example",
@@ -47463,6 +47550,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                 name="name_example",
                                                 optional=True,
                                             ),
+                                            send_content_md5=True,
                                             session_token_secret=SecretKeySelector(
                                                 key="key_example",
                                                 name="name_example",
@@ -48136,6 +48224,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                     name="name_example",
                                     optional=True,
                                 ),
+                                send_content_md5=True,
                                 session_token_secret=SecretKeySelector(
                                     key="key_example",
                                     name="name_example",
@@ -49002,6 +49091,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                         name="name_example",
                                                         optional=True,
                                                     ),
+                                                    send_content_md5=True,
                                                     session_token_secret=SecretKeySelector(
                                                         key="key_example",
                                                         name="name_example",
@@ -49291,6 +49381,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                                 name="name_example",
                                                                 optional=True,
                                                             ),
+                                                            send_content_md5=True,
                                                             session_token_secret=SecretKeySelector(
                                                                 key="key_example",
                                                                 name="name_example",
@@ -49602,6 +49693,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                             name="name_example",
                                             optional=True,
                                         ),
+                                        send_content_md5=True,
                                         session_token_secret=SecretKeySelector(
                                             key="key_example",
                                             name="name_example",
@@ -50192,6 +50284,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                             name="name_example",
                                             optional=True,
                                         ),
+                                        send_content_md5=True,
                                         session_token_secret=SecretKeySelector(
                                             key="key_example",
                                             name="name_example",
@@ -50523,6 +50616,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                             name="name_example",
                                             optional=True,
                                         ),
+                                        send_content_md5=True,
                                         session_token_secret=SecretKeySelector(
                                             key="key_example",
                                             name="name_example",
@@ -50815,6 +50909,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                             name="name_example",
                                             optional=True,
                                         ),
+                                        send_content_md5=True,
                                         session_token_secret=SecretKeySelector(
                                             key="key_example",
                                             name="name_example",
@@ -51718,6 +51813,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                         name="name_example",
                                                         optional=True,
                                                     ),
+                                                    send_content_md5=True,
                                                     session_token_secret=SecretKeySelector(
                                                         key="key_example",
                                                         name="name_example",
@@ -52003,6 +52099,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                                 name="name_example",
                                                                 optional=True,
                                                             ),
+                                                            send_content_md5=True,
                                                             session_token_secret=SecretKeySelector(
                                                                 key="key_example",
                                                                 name="name_example",
@@ -52958,6 +53055,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                         name="name_example",
                                         optional=True,
                                     ),
+                                    send_content_md5=True,
                                     session_token_secret=SecretKeySelector(
                                         key="key_example",
                                         name="name_example",
@@ -53824,6 +53922,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                             name="name_example",
                                                             optional=True,
                                                         ),
+                                                        send_content_md5=True,
                                                         session_token_secret=SecretKeySelector(
                                                             key="key_example",
                                                             name="name_example",
@@ -54113,6 +54212,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                                     name="name_example",
                                                                     optional=True,
                                                                 ),
+                                                                send_content_md5=True,
                                                                 session_token_secret=SecretKeySelector(
                                                                     key="key_example",
                                                                     name="name_example",
@@ -54424,6 +54524,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                 name="name_example",
                                                 optional=True,
                                             ),
+                                            send_content_md5=True,
                                             session_token_secret=SecretKeySelector(
                                                 key="key_example",
                                                 name="name_example",
@@ -55014,6 +55115,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                 name="name_example",
                                                 optional=True,
                                             ),
+                                            send_content_md5=True,
                                             session_token_secret=SecretKeySelector(
                                                 key="key_example",
                                                 name="name_example",
@@ -55345,6 +55447,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                 name="name_example",
                                                 optional=True,
                                             ),
+                                            send_content_md5=True,
                                             session_token_secret=SecretKeySelector(
                                                 key="key_example",
                                                 name="name_example",
@@ -55637,6 +55740,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                 name="name_example",
                                                 optional=True,
                                             ),
+                                            send_content_md5=True,
                                             session_token_secret=SecretKeySelector(
                                                 key="key_example",
                                                 name="name_example",
@@ -56540,6 +56644,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                             name="name_example",
                                                             optional=True,
                                                         ),
+                                                        send_content_md5=True,
                                                         session_token_secret=SecretKeySelector(
                                                             key="key_example",
                                                             name="name_example",
@@ -56825,6 +56930,7 @@ with argo_workflows.ApiClient(configuration) as api_client:
                                                                     name="name_example",
                                                                     optional=True,
                                                                 ),
+                                                                send_content_md5=True,
                                                                 session_token_secret=SecretKeySelector(
                                                                     key="key_example",
                                                                     name="name_example",

@@ -3633,6 +3633,9 @@ definitions:
                 type: string
             secretKeySecret:
                 $ref: '#/definitions/SecretKeySelector'
+            sendContentMd5:
+                description: SendContentMd5 tells the driver to send MD5 header for object put.
+                type: boolean
             sessionTokenSecret:
                 $ref: '#/definitions/SecretKeySelector'
             useSDKCreds:
