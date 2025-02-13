@@ -38,7 +38,7 @@ require (
 	github.com/klauspost/pgzip v1.2.6
 	github.com/minio/minio-go/v7 v7.0.77
 	github.com/nao1215/markdown v0.6.0
-	github.com/prometheus/client_golang v1.19.1
+	github.com/prometheus/client_golang v1.20.5
 	github.com/prometheus/common v0.55.0
 	github.com/robfig/cron/v3 v3.0.1
 	github.com/sethvargo/go-limiter v0.7.2
