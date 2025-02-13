@@ -5273,7 +5273,7 @@ func schema_pkg_apis_workflow_v1alpha1_S3Artifact(ref common.ReferenceCallback) 
 					},
 					"sendContentMd5": {
 						SchemaProps: spec.SchemaProps{
-							Description: "SendContentMd5 tells the driver to send MD5 header for object put.",
+							Description: "SendContentMd5 tells the driver to send MD5 header for object put (setting this to true is required if you have object lock enabled on your bucket).",
 							Type:        []string{"boolean"},
 							Format:      "",
 						},
@@ -5379,7 +5379,7 @@ func schema_pkg_apis_workflow_v1alpha1_S3ArtifactRepository(ref common.Reference
 					},
 					"sendContentMd5": {
 						SchemaProps: spec.SchemaProps{
-							Description: "SendContentMd5 tells the driver to send MD5 header for object put.",
+							Description: "SendContentMd5 tells the driver to send MD5 header for object put (setting this to true is required if you have object lock enabled on your bucket).",
 							Type:        []string{"boolean"},
 							Format:      "",
 						},
@@ -5492,7 +5492,7 @@ func schema_pkg_apis_workflow_v1alpha1_S3Bucket(ref common.ReferenceCallback) co
 					},
 					"sendContentMd5": {
 						SchemaProps: spec.SchemaProps{
-							Description: "SendContentMd5 tells the driver to send MD5 header for object put.",
+							Description: "SendContentMd5 tells the driver to send MD5 header for object put (setting this to true is required if you have object lock enabled on your bucket).",
 							Type:        []string{"boolean"},
 							Format:      "",
 						},

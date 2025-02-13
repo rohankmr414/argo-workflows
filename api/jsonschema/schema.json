@@ -6514,7 +6514,7 @@
           "description": "SecretKeySecret is the secret selector to the bucket's secret key"
         },
         "sendContentMd5": {
-          "description": "SendContentMd5 tells the driver to send MD5 header for object put.",
+          "description": "SendContentMd5 tells the driver to send MD5 header for object put (setting this to true is required if you have object lock enabled on your bucket).",
           "type": "boolean"
         },
         "sessionTokenSecret": {
@@ -6579,7 +6579,7 @@
           "description": "SecretKeySecret is the secret selector to the bucket's secret key"
         },
         "sendContentMd5": {
-          "description": "SendContentMd5 tells the driver to send MD5 header for object put.",
+          "description": "SendContentMd5 tells the driver to send MD5 header for object put (setting this to true is required if you have object lock enabled on your bucket).",
           "type": "boolean"
         },
         "sessionTokenSecret": {

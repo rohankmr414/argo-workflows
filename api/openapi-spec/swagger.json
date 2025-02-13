@@ -10539,7 +10539,7 @@
           "$ref": "#/definitions/io.k8s.api.core.v1.SecretKeySelector"
         },
         "sendContentMd5": {
-          "description": "SendContentMd5 tells the driver to send MD5 header for object put.",
+          "description": "SendContentMd5 tells the driver to send MD5 header for object put (setting this to true is required if you have object lock enabled on your bucket).",
           "type": "boolean"
         },
         "sessionTokenSecret": {
@@ -10604,7 +10604,7 @@
           "$ref": "#/definitions/io.k8s.api.core.v1.SecretKeySelector"
         },
         "sendContentMd5": {
-          "description": "SendContentMd5 tells the driver to send MD5 header for object put.",
+          "description": "SendContentMd5 tells the driver to send MD5 header for object put (setting this to true is required if you have object lock enabled on your bucket).",
           "type": "boolean"
         },
         "sessionTokenSecret": {
